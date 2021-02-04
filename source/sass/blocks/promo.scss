@@ -1,0 +1,34 @@
+.promo {
+  padding-top: 256px;
+  padding-bottom: 240px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.promo__title {
+  color: $basic-white;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.promo__title_main {
+  font-size: 46px;
+  line-height: 64px;
+}
+
+.promo__wrapper {
+  width: 395px;
+}
+
+.promo__text {
+  font-size: 20px;
+  line-height: 32px;
+  color: $basic-white;
+  margin: 0;
+}
+
+.promo__logo {
+  margin-bottom: 30px;
+}
+
