@@ -5,6 +5,14 @@
 }
 
 .container {
-  width: 873px;
+  max-width: 873px;
   margin: 0 auto;
+
+  @media (max-width: $desktop-width) {
+    max-width: 698px;
+  }
+
+  @media (max-width: $tablet-width) {
+    min-width: 286px;
+  }
 }

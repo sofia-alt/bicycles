@@ -11,6 +11,9 @@
 <body class="page__body">
   <header class="page__header page__header_main">
     <nav class="main-nav container">
+      <button class="main-nav__toggle main-nav__toggle_closed" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
       <ul class="main-nav__list">
         <li class="main-mav__item">
           <a class="main-nav__link" href="#">
@@ -60,5 +63,84 @@
       </form>
     </section>
   </header>
+  <main class="page__main">
+    <section class="facts">
+      <h2 class="facts__title">
+        Несколько фактов о нас
+      </h2>
+      <ul class="facts__list">
+        <li class="facts__item">
+          <span class="facts__num">01</span>
+          <h3 class="facts__name">Самый широкий выбор велосипедов!</h3>
+        </li>
+        <li class="facts__item">
+          <span class="facts__num">02</span>
+          <h3 class="facts__name">Доставка велосипедов по всей России!</h3>
+        </li>
+        <li class="facts__item">
+          <span class="facts__num">03</span>
+          <h3 class="facts__name">Большой выбор крутых аксессуаров!</h3>
+        </li>
+        <li class="facts__item">
+          <span class="facts__num">04</span>
+          <h3 class="facts__name">Профессиональные консультации!</h3>
+        </li>
+      </ul>
+    </section>
+    <section class="kinds">
+      <h2 class="kinds__title">
+        Виды велосипедов
+      </h2>
+      <ul class="kinds__list">
+        <li class="kinds__item">
+          <img class="kinds__photo" src="img/type1.jpg" width="342" height="503" alt="Фотография дорожного велосипеда">
+          <h3 class="kinds__name">Дорожный велосипед</h3>
+        </li>
+        <li class="kinds__item">
+          <img class="kinds__photo" src="img/type2.jpg" width="342" height="503" alt="Фотография горного велосипеда">
+          <h3 class="kinds__name">Горный велосипед</h3>
+        </li>
+        <li class="kinds__item">
+          <img class="kinds__photo" src="img/type3.jpg" width="342" height="503" alt="Фотография детского велосипеда">
+          <h3 class="kinds__name">Детский велосипед</h3>
+        </li>
+      </ul>
+    </section>
+    <section class="video">
+      <h2 class="video__title">
+        Видео про велосипеды
+      </h2>
+      <p class="video__text">
+        В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.
+      </p>
+      <div class="video__preview">
+        <img class="video__pic" alt="Превью видео про велосипеды" width="929" height="522">
+        <button class="video__btn" type="button"><span class="visually-hidden">Включить видео</span></button>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <section class="map">
+      <h2 class="map__title">Как нас найти?</h2>
+      <p class="map__text">Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
+      <!-- <iframe class="map__frame" src="https://yandex.ru/map-widget/v1/?um=constructor%3Afe27e6dcf5521402fe2888d7dccd1b4156fadcbe7a64d2b34f42cc636654398c&amp;source=constructor" width="957" height="530"></iframe> -->
+    </section>
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__link contacts__link_email" href="mailto:puteshestviemechta@gmail.ru">
+            <span class="contacts__email">puteshestviemechta@gmail.ru</span>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link contacts__link_phone" href="tel:+749978468446">
+             +7 (499) -784-684-46
+            </a>
+          </li>
+      </ul>
+    </section>
+  </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
