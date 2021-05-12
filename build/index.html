@@ -16,22 +16,22 @@
       </button>
       <ul class="main-nav__list">
         <li class="main-mav__item">
-          <a class="main-nav__link" href="#">
+          <a class="main-nav__link" href="#more-info">
             О нас
           </a>
         </li>
         <li class="main-nav__item">
-          <a class="main-nav__link" href="#">
+          <a class="main-nav__link" href="#types">
             Виды велосипедов
           </a>
         </li>
         <li class="main-nav__item">
-          <a class="main-nav__link" href="#">
+          <a class="main-nav__link" href="#video">
             Видео про велосипеды
           </a>
         </li>
         <li class="main-nav__item">
-          <a class="main-nav__link" href="#">
+          <a class="main-nav__link" href="#contacts">
             Контакты
           </a>
         </li>
@@ -64,7 +64,7 @@
     </section>
   </header>
   <main class="page__main">
-    <section class="facts">
+    <section class="facts" id="more-info">
       <h2 class="facts__title">
         Несколько фактов о нас
       </h2>
@@ -87,7 +87,7 @@
         </li>
       </ul>
     </section>
-    <section class="kinds">
+    <section class="kinds" id="types">
       <h2 class="kinds__title">
         Виды велосипедов
       </h2>
@@ -106,24 +106,26 @@
         </li>
       </ul>
     </section>
-    <section class="video">
-      <h2 class="video__title">
-        Видео про велосипеды
-      </h2>
-      <p class="video__text">
-        В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.
-      </p>
-      <div class="video__preview">
-        <img class="video__pic" alt="Превью видео про велосипеды" width="929" height="522">
-        <button class="video__btn" type="button"><span class="visually-hidden">Включить видео</span></button>
+    <section class="video" id="video">
+      <div class="video__wrapper">
+        <h2 class="video__title">
+          Видео про велосипеды
+        </h2>
+        <p class="video__text">
+          В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.
+        </p>
+        <div class="video__preview">
+          <img class="video__pic" alt="Превью видео про велосипеды" width="929" height="522" src="img/preview.jpg">
+          <button class="video__btn" type="button"><span class="visually-hidden">Включить видео</span></button>
+        </div>
       </div>
     </section>
   </main>
   <footer class="page__footer">
-    <section class="map">
+    <section class="map" id="contacts">
       <h2 class="map__title">Как нас найти?</h2>
       <p class="map__text">Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
-      <!-- <iframe class="map__frame" src="https://yandex.ru/map-widget/v1/?um=constructor%3Afe27e6dcf5521402fe2888d7dccd1b4156fadcbe7a64d2b34f42cc636654398c&amp;source=constructor" width="957" height="530"></iframe> -->
+      <iframe class="map__frame" src="https://yandex.ru/map-widget/v1/?um=constructor%3Afe27e6dcf5521402fe2888d7dccd1b4156fadcbe7a64d2b34f42cc636654398c&amp;source=constructor" width="957" height="530"></iframe>
     </section>
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
